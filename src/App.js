@@ -1,25 +1,55 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import React from 'react';
+import LoginForm from './LoginForm';
+
+const App = () => {
+    return (
+        <div>
+            <LoginForm />
+        </div>
+    );
+};
 
 export default App;
+
+
+
+/*
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import LoginForm from './LoginForm';
+import MainPage from './MainPage'; // Asegúrate de tener este import correcto
+
+const App = () => {
+    return (
+        <Router>
+            <Switch>
+                <Route exact path="/" component={LoginForm} />
+                <Route path="/MainPage" component={MainPage} />
+            </Switch>
+        </Router>
+    );
+};
+
+export default App;
+*/
+/*
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
+import LoginForm from './LoginForm';
+import MainPage from './MainPage';
+
+const App = () => {
+    return (
+        <Router>
+            <Switch>
+                <Route exact path="/" component={LoginForm} />
+                <Route path="/MainPage" component={MainPage} />
+                <Redirect to="/" />
+            </Switch>
+        </Router>
+    );
+};
+
+export default App;
+*/
