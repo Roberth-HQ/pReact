@@ -2,7 +2,7 @@
   "name": "nueva-ini",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://roberth-hq.github.io/login",
+  "homepage": "https://roberth-hq.github.io/pReact/build",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",

@@ -10,6 +10,7 @@ const App = () => {
     return (
         <Router>
             <Routes>
+                <Route exact path="/pReact/build" element={<LoginForm />} />
                 <Route path="/login" element={<LoginForm />} />
                 <Route path="/MainPage" element={<MainPage />} />
                 <Route path="/MainPage2" element={<MainPage2 />} />
