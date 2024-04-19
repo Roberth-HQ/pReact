@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/pReact/build/static/css/main.e6c13ad2.css",
+    "main.js": "/pReact/build/static/js/main.8de36561.js",
+    "static/js/453.aeb54c46.chunk.js": "/pReact/build/static/js/453.aeb54c46.chunk.js",
+    "static/media/fondoLogin.jpg": "/pReact/build/static/media/fondoLogin.4a84cea587e6f9fbbd69.jpg",
+    "index.html": "/pReact/build/index.html",
+    "main.e6c13ad2.css.map": "/pReact/build/static/css/main.e6c13ad2.css.map",
+    "main.8de36561.js.map": "/pReact/build/static/js/main.8de36561.js.map",
+    "453.aeb54c46.chunk.js.map": "/pReact/build/static/js/453.aeb54c46.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.8de36561.js"
+  ]
+}
