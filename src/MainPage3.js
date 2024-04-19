@@ -13,20 +13,20 @@ const MainPage = () => {
         <div>
             <div style={{ backgroundColor: 'rgba(80, 160, 80, 1.2)', padding: '20px', textAlign: 'center', color: 'white' }}>
                 <h1>Unidad educativa McLovin</h1>
-                <div style={{ marginLeft: '20px', display: 'flex', alignItems: 'center' }}>
-                    <FontAwesomeIcon icon={faUser} style={{ marginRight: '5px' }} />
-                    <FontAwesomeIcon icon={faAngleDown} onClick={handleDropdownToggle} style={{ marginLeft: '5px', cursor: 'pointer' }} />
-                </div>
-                {isDropdownOpen && (
-                    <div style={{ position: 'absolute', top: '50px', left: '100px', backgroundColor: 'rgba(80, 160, 80, 0.8)', padding: '10px', borderRadius: '5px' }}>
-                        <p>académico</p>
-                        <p onClick={() => setIsDropdownOpen(false)}>Cerrar sesión</p>
+                                    <div style={{ marginRight: '20px', display: 'flex', alignItems: 'center' }}>
+                        <FontAwesomeIcon icon={faUser} style={{ marginRight: '5px' }} />
+                        <FontAwesomeIcon icon={faAngleDown} onClick={handleDropdownToggle} style={{ marginLeft: '5px', cursor: 'pointer' }} />
                     </div>
-                )}
+                    {isDropdownOpen && (
+                        <div style={{ position: 'absolute', top: '50px', right: '20px', backgroundColor: 'rgba(80, 160, 80, 0.8)', padding: '10px', borderRadius: '5px' }}>
+                            <p>profesor</p>
+                            <p onClick={() => setIsDropdownOpen(false)}>Cerrar sesión</p>
+                        </div>
+                    )}
             </div>
             <div style={{ display: 'flex', backgroundColor: 'rgba(80, 160, 80, 1.2)', justifyContent: 'space-between', minHeight: 'calc(100vh - 104px)' }}>
                 <div style={{ flex: 1, backgroundColor: 'rgba(80, 160, 80, 1.2)', padding: '20px', color: 'white' }}>
-                    <div style={{
+                    <div style={{ 
                         width: '50px',
                         height: '50px',
                         borderRadius: '50%',
@@ -39,7 +39,7 @@ const MainPage = () => {
                     <h2>Jhon Miguel Cuevas Carillo</h2>
 
                     <div>
-                        <button style={{
+                        <button style={{ 
                             marginBottom: '10px',
                             padding: '10px 20px',
                             backgroundColor: '#008000',
@@ -52,22 +52,8 @@ const MainPage = () => {
                             textTransform: 'uppercase',
                             display: 'block',
                             width: '100%'
-                        }}>Profesores</button>
-                        <button style={{
-                            marginBottom: '10px',
-                            padding: '10px 20px',
-                            backgroundColor: '#008000',
-                            color: 'white',
-                            border: '2px solid white',
-                            borderRadius: '5px',
-                            cursor: 'pointer',
-                            fontSize: '14px',
-                            fontWeight: 'bold',
-                            textTransform: 'uppercase',
-                            display: 'block',
-                            width: '100%'
-                        }}>Alumnos</button>
-                        <button style={{
+                        }}>Horarios</button>
+                        <button style={{ 
                             marginBottom: '10px',
                             padding: '10px 20px',
                             backgroundColor: '#008000',
@@ -81,7 +67,7 @@ const MainPage = () => {
                             display: 'block',
                             width: '100%'
                         }}>Materias</button>
-                        <button style={{
+                        <button style={{ 
                             marginBottom: '10px',
                             padding: '10px 20px',
                             backgroundColor: '#008000',
@@ -94,7 +80,20 @@ const MainPage = () => {
                             textTransform: 'uppercase',
                             display: 'block',
                             width: '100%'
-                        }}>Gestión</button>
+                        }}>Administracion Personal</button>
+                        <button style={{ 
+                            padding: '10px 20px',
+                            backgroundColor: '#008000',
+                            color: 'white',
+                            border: '2px solid white',
+                            borderRadius: '5px',
+                            cursor: 'pointer',
+                            fontSize: '14px',
+                            fontWeight: 'bold',
+                            textTransform: 'uppercase',
+                            display: 'block',
+                            width: '100%'
+                        }}>Notas</button>
                     </div>
                 </div>
                 <div style={{ backgroundColor: 'white', flex: 2, padding: '20px' }}>

@@ -1,0 +1,62 @@
+.container {
+    background-image: url('ruta/a/la/imagen.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px solid white;
+    border-radius: 15px;
+    background-color: rgba(144, 238, 144, 0.5);
+}
+
+.formulario h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.campo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.campo input {
+    padding: 10px;
+    flex: 1;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.info {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
