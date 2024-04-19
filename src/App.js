@@ -10,7 +10,7 @@ const App = () => {
     return (
         <Router>
             <Routes>
-                <Route exact path="/" element={<LoginForm />} />
+                <Route path="/login" element={<LoginForm />} />
                 <Route path="/MainPage" element={<MainPage />} />
                 <Route path="/MainPage2" element={<MainPage2 />} />
                 <Route path="/MainPage3" element={<MainPage3 />} />
@@ -21,3 +21,4 @@ const App = () => {
 };
 
 export default App;
+
